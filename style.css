@@ -1,0 +1,14 @@
+showRolls.addEventListener("click", function () {
+    let num1 = 0;
+    str = "<ol>";
+    while (num1 < dieRolls.length) {
+      str += "<li>" + dieRolls[num1] + "</li>";
+      num1 += 1;
+    }
+    // dieRolls.forEach(function (die) {
+    //   str += "<li>" + die + "</li>";
+     });
+    str += "</ol>";
+    lists.innerHTML = str;
+  });
+  
