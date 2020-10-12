@@ -1,14 +1,55 @@
-showRolls.addEventListener("click", function () {
-    let num1 = 0;
-    str = "<ol>";
-    while (num1 < dieRolls.length) {
-      str += "<li>" + dieRolls[num1] + "</li>";
-      num1 += 1;
-    }
-    // dieRolls.forEach(function (die) {
-    //   str += "<li>" + die + "</li>";
-     });
-    str += "</ol>";
-    lists.innerHTML = str;
-  });
-  
+.Roll {
+  border: 0;
+  line-height: 1.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color:green;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color:red;
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+}
+.showtherolls{
+  border: 0;
+  line-height: 1.5;
+  padding: 0 30px;
+  font-size: 1rem;
+  text-align: center;
+  color:green;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color:red;
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+}
+#reset-button {
+  border: 0;
+  line-height: 1.5;
+  padding: 0 30px;
+  font-size: 1rem;
+  text-align: center;
+  color:green;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color:red;
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+
+}
